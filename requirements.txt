@@ -1,0 +1,7 @@
+mesa
+pandas
+joblib
+numpy
+jupyter
+matplotlib
+scipy
