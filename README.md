@@ -1,6 +1,18 @@
 School Infection Simulation Model
 This project implements a school infection simulation using the Mesa framework to model the spread of diseases among students in a school environment. It tracks various interactions such as dorm contacts, class contacts, and random contacts to simulate the spread of infection. The model runs using a multi-agent system where each student is represented by an agent.
 
+Repository Structure
+TB-ABM/
+├── TB_ABM/                  # Core simulation notebooks
+│   ├── A_100.ipynb          # school A outbreak scenario
+│   ├── B_100.ipynb          # school B outbreak scenario
+│   ├── C_100.ipynb          # school C outbreak scenario
+│   └── D_100.ipynb          # school D outbreak scenario
+│
+├── requirements.txt         # Python dependencies
+└── README.md
+
+
 Overview
 The model simulates the spread of a disease among students in a school, considering interactions among students in classrooms, dormitories, and random contacts. The infection dynamics are governed by state transitions between Susceptible (S), Exposed (E), Infected (I), and Recovered (R) states.
 
@@ -22,7 +34,7 @@ cProfile
 Installation
 Clone the repository:
 
-git clone https://github.com/yourusername/school-infection-simulation.git
+git clone https://github.com/heyueyueyue/TB-ABM.git
 cd school-infection-simulation
 Install the required dependencies:
 
